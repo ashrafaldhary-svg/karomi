@@ -45,7 +45,7 @@ class UpdateChecker(private val client: OkHttpClient) {
     }
 
     companion object {
-        const val OFFICIAL_SITE = "https://github.com/akramalmass79-beep/karomi"
-        const val RELEASES_API = "https://api.github.com/repos/akramalmass79-beep/karomi/releases/latest"
+        const val OFFICIAL_SITE = "https://github.com/ashrafaldhary-svg/karomi"
+        const val RELEASES_API = "https://api.github.com/repos/ashrafaldhary-svg/karomi/releases/latest"
     }
 }
