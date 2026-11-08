@@ -1,0 +1,3 @@
+-keep class com.karomi.downloader.data.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**

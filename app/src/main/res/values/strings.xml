@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كرومي</string>
+
+    <!-- التنقل -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- الرئيسية -->
+    <string name="url_hint">أدخل رابط الفيديو هنا</string>
+    <string name="paste">لصق</string>
+    <string name="fetch_qualities">جلب الجودات</string>
+    <string name="choose_quality">اختر جودة التحميل</string>
+    <string name="legal_notice">هذا التطبيق للاستخدام الشخصي فقط. يُمنع إعادة توزيع أو نشر أي محتوى يتم تحميله، واحترم حقوق الملكية الفكرية وشروط استخدام المنصات.</string>
+    <string name="invalid_url">الرجاء إدخال رابط صحيح يبدأ بـ http</string>
+    <string name="clipboard_empty">الحافظة فارغة</string>
+    <string name="no_url_in_clipboard">لا يوجد رابط في الحافظة</string>
+    <string name="fetch_failed">تعذر جلب الجودات: %1$s</string>
+    <string name="download_started">بدأ التحميل في الخلفية</string>
+
+    <!-- التحميل -->
+    <string name="download_channel_name">التحميلات</string>
+    <string name="download_channel_desc">إشعارات تقدم تحميل الفيديو والصوت</string>
+    <string name="download_complete">اكتمل التحميل</string>
+    <string name="download_failed">فشل التحميل</string>
+    <string name="download_paused">تم الإيقاف المؤقت</string>
+    <string name="extracting_audio">جارٍ استخراج الصوت…</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="cancel">إلغاء</string>
+
+    <!-- المكتبة -->
+    <string name="filter_all">الكل</string>
+    <string name="filter_video">فيديو</string>
+    <string name="filter_audio">صوت</string>
+    <string name="library_empty">لا توجد تحميلات بعد</string>
+    <string name="file_missing">الملف غير موجود على الجهاز</string>
+    <string name="delete_title">حذف الملف</string>
+    <string name="delete_message">هل تريد حذف «%1$s» نهائيًا؟</string>
+    <string name="delete">حذف</string>
+    <string name="move_to">نقل إلى مجلد</string>
+    <string name="move_done">تم النقل بنجاح</string>
+    <string name="move_failed">تعذر نقل الملف</string>
+    <string name="status_queued">في الانتظار</string>
+    <string name="status_downloading">جارٍ التحميل</string>
+    <string name="status_paused">متوقف مؤقتًا</string>
+    <string name="status_completed">مكتمل</string>
+    <string name="status_failed">فشل</string>
+
+    <!-- الإعدادات -->
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="backup_title">النسخ الاحتياطي</string>
+    <string name="backup_export">تصدير نسخة احتياطية</string>
+    <string name="backup_restore">استعادة نسخة احتياطية</string>
+    <string name="backup_done">تم تصدير النسخة الاحتياطية</string>
+    <string name="backup_failed">فشل التصدير: %1$s</string>
+    <string name="restore_done">تمت استعادة %1$d عنصرًا</string>
+    <string name="restore_failed">فشلت الاستعادة: %1$s</string>
+    <string name="check_updates">فحص التحديثات</string>
+    <string name="update_available">يوجد تحديث جديد</string>
+    <string name="update_message">الإصدار %1$s متاح الآن على الموقع الرسمي. حمّل التحديثات من الموقع الرسمي فقط.</string>
+    <string name="no_updates">أنت تستخدم أحدث إصدار</string>
+    <string name="update_check_failed">تعذر فحص التحديثات، تحقق من الاتصال</string>
+    <string name="open_site">فتح الموقع</string>
+    <string name="about_text">كرومي — تطبيق تحميل للاستخدام الشخصي فقط. لا يجمع أي بيانات ولا يطلب أذونات غير ضرورية.</string>
+</resources>
