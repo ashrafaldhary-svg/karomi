@@ -1,0 +1,36 @@
+name: بناء تطبيق كرومي (APK)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # تشغيل يدوي من تبويب Actions
+
+jobs:
+  build:
+    name: بناء حزمة APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: سحب الكود
+        uses: actions/checkout@v4
+
+      - name: إعداد JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: إعداد Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.7"
+
+      - name: بناء نسخة Debug
+        run: gradle assembleDebug --stacktrace
+
+      - name: رفع ملف APK كمخرَج
+        uses: actions/upload-artifact@v4
+        with:
+          name: karomi-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+          retention-days: 30
